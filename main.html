@@ -12,28 +12,30 @@
 	<form class="border m-1 p-3">
 	<h1 class="text-center">Internship Form</h1>
     <div class="row">
-        <div class="col">
+    <div class="col">
       <label for="first-name-input" class="form-label">First Name</label>
       <input type="text" class="form-control" id="first-name-input" placeholder="First name" aria-label="First name" required>
       <div id="emailHelp" class="form-text invalid-feedback">First name required!</div>
-        </div>
-
-        <div class="col">
-            <label for="last-name-input" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="last-name-input" placeholder="Last name" aria-label="Last name" required>
-          <div id="emailHelp" class="form-text invalid-feedback">Last name required!</div>
-        </div>
-        <div class="col">
-        <label for="email-input" class="form-label">Email Address</label>
-        <input type="email" class="form-control" id="email-input" placeholder="name@example.com" required>
-        <div id="emailHelp" class="form-text invalid-feedback">Email required!</div>
-        </div>
     </div>
+
+    <div class="col">
+      <label for="last-name-input" class="form-label">Last Name</label>
+      <input type="text" class="form-control" id="last-name-input" placeholder="Last name" aria-label="Last name" required>
+     <div id="emailHelp" class="form-text invalid-feedback">Last name required!</div>
+    </div>
+		
+	<div class="col">
+ 	   <label for="email-input" class="form-label">Email Address</label>
+	   <input type="email" class="form-control" id="email-input" placeholder="name@example.com" required>
+	<div id="emailHelp" class="form-text invalid-feedback">Email required!</div>
+    </div>
+    </div>
+		
     <div class="row">
     <div class="col-6">
-  <label for="college-input" class="form-label">College</label>
-      <input type="text" class="form-control" id="college-input" aria-label="First name" required>
-      <div id="emailHelp" class="form-text invalid-feedback">Please provide a valid college.</div>
+       <label for="college-input" class="form-label">College</label>
+       <input type="text" class="form-control" id="college-input" aria-label="First name" required>
+    <div id="emailHelp" class="form-text invalid-feedback">Please provide a valid college.</div>
     </div>
 	
     <div class="col-3">
@@ -41,23 +43,23 @@
       <select id="grad-year-select" class="form-select" required>
         <option selected>Choose...</option>
         <option>2020</option>
-      <option>2021</option>
-      <option>2022</option>
-      <option>2023</option>
+        <option>2021</option>
+        <option>2022</option>
+        <option>2023</option>
       </select>
-      <div id="emailHelp" class="form-text invalid-feedback">Please select a valid graduation year.</div>
+    <div id="emailHelp" class="form-text invalid-feedback">Please select a valid graduation year.</div>
     </div>
 	
     <div class="col-3">
-  <label for="roll-no-input" class="form-label">Roll No.</label>
-      <input type="text" class="form-control" id="roll-no-input" aria-label="First name" required>
+	   <label for="roll-no-input" class="form-label">Roll No.</label>
+	   <input type="text" class="form-control" id="roll-no-input" aria-label="First name" required>
     <div id="emailHelp" class="form-text invalid-feedback">Please provide a valid Roll no.</div> 
     </div>
     </div>
 	
     <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
-      <label class="form-check-label" for="conditions-checkbox"> Agree to terms and conditions</label>
+       <input class="form-check-input" type="checkbox" id="conditions-checkbox" required>
+       <label class="form-check-label" for="conditions-checkbox"> Agree to terms and conditions</label>
      <div id="emailHelp" class="form-text invalid-feedback">You must agree before submitting.</div>
 	</div>
   <button type="submit" class="btn btn-primary" required>Submit</button>
